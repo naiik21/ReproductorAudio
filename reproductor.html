@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Symbols+Outlined">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="card">
+        <div class="previw">
+            <div id="portada" class="portada">
+                <img id="img" src="" alt="" />
+                <audio id="song">
+                </audio>
+            </div>
+        </div>
+        <div class="">
+
+            <div>
+                <h5 id="canço">Cançó 1</h5>
+                <h6 id="artista">Artista 1</h6>
+                <p id="temps">3:00</p>
+            </div>
+            <div class="controls">
+                <div class="repro">
+                    <i id="previous" class="material-symbols-outlined" onclick="previousSong()">
+                        skip_previous
+                    </i>
+                    <i id="sound" class="material-symbols-outlined play" onclick="reproSound()">
+                        pause_circle
+                    </i>
+                    <i id="next" class=" material-symbols-outlined" onclick="nextSong()">
+                        skip_next
+                    </i>
+                </div>
+                <div class="sound">
+                    <div class="sound-barra">
+                        <i class="material-symbols-outlined">
+                            volume_mute
+                        </i>
+                        <input type="range" id="rangeInput" name="rangeInput" min="0" max="100" value="50"
+                            oninput="updateValue(this.value)">
+                        <i class="material-symbols-outlined">
+                            volume_up
+                        </i>
+                    </div>
+                    <span id="rangeValue">50</span>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+<script src="/script.js"></script>
+
+</html>

@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Nena Sad",
+        "artist": "Pablo Chill-E",
+        "path": "./songs/ORO600 - Nena Sad feat. Pablo Chill-E (Audio Oficial)_AkpM_84Iqp4.mp3",
+        "duration": "3:25",
+        "img": "./media/nena-sad.jpg"
+    },
+    {
+        "name": "Tranqui Mamá",
+        "artist": "Mvrk",
+        "path": "./songs/Mvrk, Sneaky wh - Tranqui mamá (Video Oficial)_uJVjo5eKscc.mp3",
+        "duration": "2:51",
+        "img": "./media/tranqui-mama.png"
+    },
+    {
+        "name": "No es para tanto",
+        "artist": "Asan, Duki",
+        "path": "./songs/ASAN - No Es Para Tanto ft. Duki (Lado B)_iTRRCP4XX3A.mp3",
+        "duration": "3:13",
+        "img": "./media/no-es-para-tanto.png"
+    }
+]
